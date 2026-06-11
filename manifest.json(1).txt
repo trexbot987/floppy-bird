@@ -1,40 +1,22 @@
 {
-  "background_color": "#ffffff",
-  "description": "Floppy Bird Pro - 5 amazing worlds! Forest, Ice, Fire, Hell and Heaven!",
-  "dir": "ltr",
+  "name": "Floppy Bird",
+  "short_name": "FloppyBird",
+  "description": "A fun browser-based Floppy Bird game. Tap to fly and avoid obstacles!",
+  "start_url": "/",
   "display": "standalone",
-  "name": "Floppy Bird Pro",
-  "orientation": "any",
-  "scope": "/",
-  "short_name": "Floppy Bird Pro",
-  "start_url": "/https://trexbot987.github.io/floppy-bird",
-  "theme_color": "#ffdd00",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "portrait",
   "icons": [
     {
-      "src": "https://trexbot987.github.io/icon-192.png",
-      "type": "image/png",
+      "src": "/icon-192.png",
       "sizes": "192x192",
-      "isSquare": true,
-      "isPng": true,
-      "isWebp": false,
-      "isJpg": false,
-      "width": 192,
-      "is512x512": false,
-      "is256x256": false,
-      "is192x192": true
+      "type": "image/png"
     },
     {
-      "src": "https://trexbot987.github.io/icon-512.png",
-      "type": "image/png",
+      "src": "/icon-512.png",
       "sizes": "512x512",
-      "isSquare": true,
-      "isPng": true,
-      "isWebp": false,
-      "isJpg": false,
-      "width": 512,
-      "is512x512": true,
-      "is256x256": false,
-      "is192x192": false
+      "type": "image/png"
     }
   ]
 }
